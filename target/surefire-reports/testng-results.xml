@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-22T18:16:38Z" name="nopcommerceSuite" finished-at="2019-04-22T18:18:26Z" duration-ms="107479">
+    <groups>
+    </groups>
+    <test started-at="2019-04-22T18:16:38Z" name="chrometest" finished-at="2019-04-22T18:18:26Z" duration-ms="107479">
+      <class name="testCases.TC_AddCustomerTest_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_AddCustomerTest_003@2f0a87b3]" started-at="2019-04-22T18:17:57Z" name="setup" finished-at="2019-04-22T18:18:00Z" duration-ms="2843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer()[pri:0, instance:testCases.TC_AddCustomerTest_003@2f0a87b3]" started-at="2019-04-22T18:18:00Z" name="addNewCustomer" finished-at="2019-04-22T18:18:26Z" duration-ms="25245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AddCustomerTest_003@2f0a87b3]" started-at="2019-04-22T18:18:26Z" name="tearDown" finished-at="2019-04-22T18:18:26Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_AddCustomerTest_003 -->
+      <class name="testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_LoginTest_001@16f7c8c1]" started-at="2019-04-22T18:16:39Z" name="setup" finished-at="2019-04-22T18:17:06Z" duration-ms="27287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TC_LoginTest_001@16f7c8c1]" started-at="2019-04-22T18:17:06Z" name="loginTest" finished-at="2019-04-22T18:17:55Z" duration-ms="49093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LoginTest_001@16f7c8c1]" started-at="2019-04-22T18:17:55Z" name="tearDown" finished-at="2019-04-22T18:17:57Z" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LoginTest_001 -->
+    </test> <!-- chrometest -->
+  </suite> <!-- nopcommerceSuite -->
+</testng-results>
